@@ -1,0 +1,21 @@
+[server]
+headless = true
+enableXsrfProtection = true
+enableCORS = false
+enableStaticServing = true
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+# White and light blue with sky blue and dark blue accents from the Raven logo.
+[theme]
+base = "light"
+primaryColor = "#1d6fe0"
+backgroundColor = "#f5fbff"
+secondaryBackgroundColor = "#e3f2fe"
+textColor = "#0b2a55"
+font = "sans serif"

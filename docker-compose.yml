@@ -1,0 +1,10 @@
+services:
+  soc-platform:
+    build: .
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data   # database, audit log and token caches persist here
+    restart: unless-stopped
